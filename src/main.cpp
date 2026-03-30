@@ -73,7 +73,6 @@ int main(int argc, char ** argv)
 //*********************************************************************************************************************
 int yearsOld(tm* inputTgl, tm* currentTgl)
 {
-    // Hitung selisih tahun kasar
     int years = currentTgl->tm_year - inputTgl->tm_year;
     
     if (currentTgl->tm_mon < inputTgl->tm_mon || 
